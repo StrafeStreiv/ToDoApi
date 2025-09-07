@@ -14,7 +14,7 @@ namespace SmartTodoApi.Helpers
             // TodoItem -> TodoItemReadDto
             CreateMap<TodoItem, TodoItemReadDto>();
 
-            // TodoItemCreateDto -> TodoItem (ДОБАВЬТЕ ЭТУ СТРОЧКУ!)
+            // TodoItemCreateDto -> TodoItem
             CreateMap<TodoItemCreateDto, TodoItem>();
 
             // Можно также добавить для обновления

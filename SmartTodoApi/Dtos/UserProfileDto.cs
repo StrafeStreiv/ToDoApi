@@ -1,0 +1,13 @@
+﻿namespace SmartTodoApi.Dtos
+{
+    /// <summary>
+    /// DTO для возврата информации о пользователе (без пароля)
+    /// </summary>
+    public class UserProfileDto
+    {
+        public int Id { get; set; }
+        public string Email { get; set; } = string.Empty;
+        public string DisplayName { get; set; } = string.Empty;
+        public DateTime CreatedAt { get; set; }
+    }
+}
